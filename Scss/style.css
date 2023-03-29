@@ -1,0 +1,1014 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    padding-bottom: 20px;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  .logo img {
+    margin-top: 30px;
+    width: 60%;
+    height: 50px;
+    margin-left: 80px;
+  }
+  
+  nav {
+    margin-top: 30px;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding-right: 50px;
+  }
+  nav a:hover {
+    color: #6068FF;
+    transition: 0.3s;
+  }
+  
+  section {
+    background-image: linear-gradient(to bottom, rgba(66, 69, 92, 0.333), rgba(66, 69, 92, 0.333)), url(https://getmasum.com/html-preview/nour/assets/img/slider/2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+  }
+  section .centertext p {
+    top: 30%;
+    font-size: 18px;
+    line-height: 30px;
+    left: 40%;
+    position: absolute;
+    color: white;
+  }
+  section .centertext h1 {
+    top: 35%;
+    left: 29%;
+    font-size: 70px;
+    width: 40%;
+    position: absolute;
+    color: white;
+    text-align: center;
+  }
+  section .centertext a {
+    position: absolute;
+    top: 65%;
+    left: 43%;
+    border: 1px solid #6068FF;
+    background-color: #6068FF;
+    color: white;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  section .centertext a:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    transition: 0.5s;
+  }
+  
+  .boxes {
+    padding: 130px 0;
+    display: block;
+  }
+  .boxes .box i {
+    font-size: 40px;
+    color: #6068FF;
+  }
+  .boxes .box h3 {
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .boxes .box p {
+    margin-bottom: 30px;
+    width: 97%;
+    color: grey;
+  }
+  
+  .image {
+    position: relative;
+  }
+  .image img {
+    width: 95%;
+    height: 50vh;
+    margin-left: 40px;
+  }
+  .image i {
+    color: white;
+    position: absolute;
+    font-size: 40px;
+    top: 36%;
+    left: 50%;
+    border: 20px solid #6068FF;
+    border-radius: 50px;
+    background-color: #6068FF;
+    cursor: pointer;
+  }
+  .image i:hover {
+    background-color: #333;
+    border: 20px solid #333;
+    transition: 0.6s;
+  }
+  
+  .secondpage {
+    position: relative;
+  }
+  .secondpage .text {
+    text-align: center;
+  }
+  .secondpage .text span {
+    line-height: 1;
+    top: -10px;
+    text-transform: uppercase;
+    z-index: -1;
+    font-weight: 900 !important;
+    font-size: 73px;
+    color: #efefef;
+    left: 50%;
+    width: 100%;
+  }
+  .secondpage .text h2 {
+    position: absolute;
+    left: 45%;
+    top: 12px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 1.3;
+    margin-bottom: 0px;
+    color: #6168FF;
+  }
+  @media (max-width: 576px) {
+    .secondpage .text h2 {
+      position: absolute;
+      left: 35%;
+    }
+  }
+  .secondpage .text p {
+    position: absolute;
+    left: 40%;
+    top: 36px;
+    font-size: 27px;
+    margin-bottom: 0;
+    line-height: 38px;
+    font-weight: 300;
+    color: #333;
+  }
+  @media (max-width: 576px) {
+    .secondpage .text p {
+      position: absolute;
+      left: 100px;
+    }
+  }
+  
+  .boxestwo .boxtwo {
+    border: 1px solid rgba(128, 128, 128, 0.345);
+    border-radius: 5px;
+  }
+  .boxestwo .boxtwo .teext {
+    padding: 25px 30px;
+  }
+  .boxestwo .boxtwo img {
+    width: 100%;
+    height: 50vh;
+  }
+  .boxestwo .boxtwo h4 {
+    display: inline;
+  }
+  .boxestwo .boxtwo span {
+    margin-left: 110px;
+    color: grey;
+  }
+  .boxestwo .boxtwo p {
+    margin-top: 20px;
+    color: grey;
+  }
+  
+  .thirdpage {
+    position: relative;
+  }
+  .thirdpage .textthird {
+    text-align: center;
+  }
+  .thirdpage .textthird span {
+    line-height: 1;
+    top: -10px;
+    text-transform: uppercase;
+    z-index: -1;
+    font-weight: 900 !important;
+    font-size: 73px;
+    color: #efefef;
+    left: 50%;
+    width: 100%;
+  }
+  .thirdpage .textthird h2 {
+    position: absolute;
+    left: 47%;
+    top: 12px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 1.3;
+    margin-bottom: 0px;
+    color: #6168FF;
+  }
+  .thirdpage .textthird p {
+    position: absolute;
+    left: 40%;
+    top: 36px;
+    font-size: 27px;
+    margin-bottom: 0;
+    line-height: 38px;
+    font-weight: 300;
+    color: #333;
+  }
+  @media (max-width: 576px) {
+    .thirdpage .textthird p {
+      position: absolute;
+      left: 100px;
+    }
+  }
+  
+  .boxesthree .boxthree {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #F0F5FA;
+    border-radius: 5px;
+    background-color: #F0F5FA;
+    margin: 15px 0;
+    padding-top: 10px;
+  }
+  .boxesthree .boxthree i {
+    color: #6068FF;
+    font-size: 40px;
+    margin: 20px 40px;
+  }
+  .boxesthree .boxthree h4 {
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .boxesthree .boxthree p {
+    width: 97%;
+    color: grey;
+  }
+  .boxesthree .boxthree .thirdtext {
+    padding: 0 8px;
+  }
+  
+  .fourthpage {
+    position: relative;
+  }
+  .fourthpage .fourthtext {
+    text-align: center;
+  }
+  .fourthpage .fourthtext span {
+    line-height: 1;
+    top: -10px;
+    text-transform: uppercase;
+    z-index: -1;
+    font-weight: 900 !important;
+    font-size: 73px;
+    color: #efefef;
+    left: 50%;
+    width: 100%;
+  }
+  .fourthpage .fourthtext h2 {
+    position: absolute;
+    left: 45%;
+    top: 12px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 1.3;
+    margin-bottom: 0px;
+    color: #6168FF;
+  }
+  @media (max-width: 576px) {
+    .fourthpage .fourthtext h2 {
+      position: absolute;
+      left: 39%;
+    }
+  }
+  .fourthpage .fourthtext p {
+    position: absolute;
+    left: 38%;
+    top: 34px;
+    font-size: 27px;
+    margin-bottom: 0;
+    line-height: 38px;
+    font-weight: 300;
+    color: #333;
+  }
+  @media (max-width: 576px) {
+    .fourthpage .fourthtext p {
+      position: absolute;
+      left: 100px;
+    }
+  }
+  
+  .boxesfour .boxfour {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+  }
+  .boxesfour .boxfour img {
+    width: 99%;
+    height: 50vh;
+  }
+  .boxesfour .layout {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(97, 104, 255, 0.8);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .boxesfour .layout h4 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+  }
+  .boxesfour .layout i {
+    color: black;
+    border: 15px solid white;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 85%;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  .boxesfour .layout i:hover {
+    background-color: #333;
+    border: 15px solid #333;
+    color: white;
+  }
+  .boxesfour .boxfour:hover .layout {
+    opacity: 1;
+  }
+  .boxesfour .boxfour:hover .layout h4 {
+    position: absolute;
+    bottom: 44%;
+    transition: 0.5s;
+  }
+  .boxesfour .boxfour:hover .layout i {
+    position: absolute;
+    right: 5%;
+    top: 85%;
+    transition: 0.5s;
+  }
+  
+  .fifthpage {
+    position: relative;
+  }
+  .fifthpage .fifthtext {
+    text-align: center;
+  }
+  .fifthpage .fifthtext span {
+    line-height: 1;
+    top: -10px;
+    text-transform: uppercase;
+    z-index: -1;
+    font-weight: 900 !important;
+    font-size: 73px;
+    color: #efefef;
+    left: 50%;
+    width: 100%;
+  }
+  .fifthpage .fifthtext h2 {
+    position: absolute;
+    left: 45%;
+    top: 12px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 1.3;
+    margin-bottom: 0px;
+    color: #6168FF;
+  }
+  @media (max-width: 576px) {
+    .fifthpage .fifthtext h2 {
+      position: absolute;
+      left: 35%;
+    }
+  }
+  .fifthpage .fifthtext p {
+    position: absolute;
+    left: 40%;
+    top: 33px;
+    font-size: 27px;
+    margin-bottom: 0;
+    line-height: 38px;
+    font-weight: 300;
+    color: #333;
+  }
+  @media (max-width: 576px) {
+    .fifthpage .fifthtext p {
+      position: absolute;
+      left: 100px;
+    }
+  }
+  
+  .boxesfive {
+    position: relative;
+  }
+  .boxesfive .boxfive {
+    border: 1px solid rgba(128, 128, 128, 0.231);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .boxesfive .boxfive img {
+    width: 100%;
+    height: 35vh;
+  }
+  .boxesfive .boxfive .package-one {
+    position: absolute;
+    border: 10px solid #6068FF;
+    background-color: #6068FF;
+    color: white;
+    border-radius: 20px;
+    left: 25%;
+    bottom: 31%;
+  }
+  @media (max-width: 576px) {
+    .boxesfive .boxfive .package-one {
+      position: absolute;
+      bottom: 76%;
+      left: 70%;
+    }
+  }
+  .boxesfive .boxfive .package-two {
+    position: absolute;
+    border: 10px solid #6068FF;
+    background-color: #6068FF;
+    color: white;
+    border-radius: 20px;
+    left: 55.5%;
+    bottom: 31%;
+  }
+  @media (max-width: 576px) {
+    .boxesfive .boxfive .package-two {
+      position: absolute;
+      bottom: 43%;
+      left: 70%;
+    }
+  }
+  .boxesfive .boxfive .package-three {
+    position: absolute;
+    border: 10px solid #6068FF;
+    background-color: #6068FF;
+    color: white;
+    border-radius: 20px;
+    left: 86%;
+    bottom: 31%;
+  }
+  @media (max-width: 576px) {
+    .boxesfive .boxfive .package-three {
+      position: absolute;
+      left: 70%;
+      bottom: 10%;
+    }
+  }
+  .boxesfive .boxfive .rating i {
+    color: #FEC32C;
+    margin-bottom: 15px;
+    font-size: 13px;
+  }
+  .boxesfive .boxfive .down {
+    padding: 30px;
+  }
+  .boxesfive .boxfive #two {
+    margin-left: 5px;
+  }
+  .boxesfive .boxfive:hover .package-one {
+    background-color: #333;
+    border: 10px solid #333;
+    border-radius: 20px;
+    transition: 0.5s;
+  }
+  .boxesfive .boxfive:hover .package-two {
+    background-color: #333;
+    border: 10px solid #333;
+    border-radius: 20px;
+    transition: 0.5s;
+  }
+  .boxesfive .boxfive:hover .package-three {
+    background-color: #333333;
+    border: 10px solid #333333;
+    border-radius: 20px;
+    transition: 0.5s;
+  }
+  
+  .partners {
+    background-image: url(https://getmasum.com/html-preview/nour/assets/img/bg/client-bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 35vh;
+    background-color: #6168FF;
+  }
+  .partners .partner {
+    margin-top: 120px;
+  }
+  .partners .mar {
+    margin-top: 80px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 576px) {
+    nav {
+      display: none;
+    }
+    section {
+      position: relative;
+    }
+    section .centertext p {
+      top: 37%;
+      font-size: 18px;
+      line-height: 30px;
+      left: 25%;
+      position: absolute;
+      color: white;
+    }
+    section .centertext h1 {
+      top: 43%;
+      left: 25%;
+      font-size: 40px;
+      width: 60%;
+      position: absolute;
+      color: white;
+      text-align: center;
+    }
+    section .centertext a {
+      position: absolute;
+      top: 60%;
+      left: 39%;
+      border: 1px solid #6068FF;
+      background-color: #6068FF;
+      color: white;
+      text-decoration: none;
+      padding: 13px 30px;
+      border-radius: 4px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+    section .eighttext p {
+      background-color: red;
+      width: 50%;
+    }
+    .partners .partner .thre {
+      display: none;
+    }
+    .partners .partner .four {
+      display: none;
+    }
+    .partners .partner .five {
+      display: none;
+    }
+    .partners .partner .six {
+      display: none;
+    }
+    .partners .partner .onee {
+      margin-left: 20px;
+    }
+    .partners .partner .twoo {
+      margin-left: 150px;
+    }
+  }
+  .sixthpage {
+    position: relative;
+  }
+  .sixthpage .sixthtext {
+    text-align: center;
+  }
+  .sixthpage .sixthtext span {
+    line-height: 1;
+    top: -10px;
+    text-transform: uppercase;
+    z-index: -1;
+    font-weight: 600 !important;
+    font-size: 73px;
+    color: #efefef;
+    left: 39%;
+    width: 100%;
+  }
+  .sixthpage .sixthtext h2 {
+    position: absolute;
+    left: 45%;
+    top: 14px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 1.3;
+    margin-bottom: 0px;
+    color: #6168FF;
+  }
+  @media (max-width: 576px) {
+    .sixthpage .sixthtext h2 {
+      position: absolute;
+      left: 35%;
+    }
+  }
+  .sixthpage .sixthtext p {
+    position: absolute;
+    left: 37%;
+    top: 32px;
+    font-size: 27px;
+    margin-bottom: 0;
+    line-height: 38px;
+    font-weight: 300;
+    color: #333;
+  }
+  @media (max-width: 576px) {
+    .sixthpage .sixthtext p {
+      position: absolute;
+      left: 10%;
+    }
+  }
+  
+  .boxessix .boxsix {
+    text-align: center;
+    border: 1px solid #F4F9FE;
+    background-color: #F4F9FE;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  .boxessix .boxsix img {
+    border-radius: 80px;
+    width: 20%;
+    height: 20%;
+    margin-top: 40px;
+  }
+  .boxessix .boxsix .lorem {
+    margin-top: 30px;
+    width: 74%;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 400;
+    margin-left: 40px;
+  }
+  .boxessix .boxsix .details {
+    margin-top: 30px;
+  }
+  .boxessix .boxsix .details span {
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 400;
+  }
+  .boxessix .boxsix .details h3 {
+    color: #666;
+  }
+  .boxessix .boxsix #rating {
+    color: #FEC32C;
+    padding: 10px;
+  }
+  
+  .seventhpage {
+    position: relative;
+  }
+  .seventhpage .seventhtext {
+    text-align: center;
+  }
+  .seventhpage .seventhtext span {
+    line-height: 1;
+    top: -10px;
+    text-transform: uppercase;
+    z-index: -1;
+    font-weight: 900 !important;
+    font-size: 73px;
+    color: #efefef;
+    left: 39%;
+    width: 100%;
+  }
+  .seventhpage .seventhtext h2 {
+    position: absolute;
+    left: 47%;
+    top: 12px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 1.3;
+    margin-bottom: 0px;
+    color: #6168FF;
+  }
+  @media (max-width: 576px) {
+    .seventhpage .seventhtext h2 {
+      position: absolute;
+      left: 40%;
+    }
+  }
+  .seventhpage .seventhtext p {
+    position: absolute;
+    left: 39%;
+    top: 36px;
+    font-size: 27px;
+    margin-bottom: 0;
+    line-height: 38px;
+    font-weight: 300;
+    color: #333;
+  }
+  @media (max-width: 576px) {
+    .seventhpage .seventhtext p {
+      position: absolute;
+      left: 120px;
+    }
+  }
+  
+  .boxesseven .boxseven {
+    border: 1px solid rgba(128, 128, 128, 0.312);
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  .boxesseven .boxseven img {
+    width: 100%;
+  }
+  .boxesseven .boxseven .bootom {
+    text-align: left;
+    padding: 30px 30px 30px;
+    line-height: 4;
+  }
+  .boxesseven .boxseven .bootom h4 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .eightpage {
+    position: relative;
+  }
+  .eightpage .eighttext {
+    text-align: center;
+  }
+  .eightpage .eighttext span {
+    line-height: 1;
+    top: -10px;
+    text-transform: uppercase;
+    z-index: -1;
+    font-weight: 900 !important;
+    font-size: 73px;
+    color: #efefef;
+    left: 39%;
+    width: 100%;
+  }
+  .eightpage .eighttext h2 {
+    position: absolute;
+    left: 47%;
+    top: 12px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 1.3;
+    margin-bottom: 0px;
+    color: #6168FF;
+  }
+  @media (max-width: 576px) {
+    .eightpage .eighttext h2 {
+      position: absolute;
+      left: 38%;
+    }
+  }
+  .eightpage .eighttext p {
+    position: absolute;
+    left: 39%;
+    top: 36px;
+    font-size: 27px;
+    margin-bottom: 0;
+    line-height: 38px;
+    font-weight: 300;
+    color: #333;
+    width: 23%;
+  }
+  @media (max-width: 576px) {
+    .eightpage .eighttext p {
+      width: 60%;
+      position: absolute;
+      left: 100px;
+    }
+  }
+  
+  .eightboxe .b0x {
+    background-color: #F4F9FF;
+    padding: 20px;
+    margin-top: 126px;
+  }
+  .eightboxe .b0x input {
+    width: 100%;
+    margin-top: 40px;
+    padding: 8px 15px;
+  }
+  .eightboxe .b0x #subject {
+    padding: 10px;
+    width: 100%;
+  }
+  .eightboxe .b0x textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+  }
+  .eightboxe .b0x .ahref {
+    text-align: center;
+    margin-top: 36px;
+  }
+  .eightboxe .b0x .ahref a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #6068FF;
+    background-color: #6068FF;
+    border-radius: 3px;
+    padding: 14px 24px;
+  }
+  
+  .eightboxes {
+    border: 1px solid #f4f9ff;
+    background-color: #F4F9FF;
+    padding: 55px 40px;
+    border-radius: 4px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 18.5rem;
+    margin-left: 18.5rem;
+  }
+  .eightboxes input {
+    margin-top: 40px;
+    padding: 8px 15px;
+  }
+  .eightboxes #subject {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 71%;
+  }
+  .eightboxes textarea {
+    padding-right: 60%;
+    padding-top: 10px;
+    padding-left: 8px;
+    margin-top: 30px;
+  }
+  .eightboxes .ahref {
+    text-align: center;
+    margin-top: 36px;
+  }
+  .eightboxes .ahref a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #6068FF;
+    background-color: #6068FF;
+    border-radius: 3px;
+    padding: 14px 24px;
+  }
+  
+  .footer {
+    padding: 250px 0 40px;
+    margin-top: 104px;
+    background-color: #00102A;
+    color: #fff;
+    -webkit-clip-path: polygon(0 250px, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 250px, 100% 0, 100% 100%, 0% 100%);
+  }
+  .footer .widget {
+    position: relative;
+  }
+  .footer .widget img {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  .footer .widget .titlee {
+    margin-bottom: 26px;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  .footer .widget ul {
+    padding-left: 0px;
+  }
+  .footer .widget ul li {
+    list-style: none;
+    line-height: 28px;
+  }
+  .footer .widget ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  .footer .widget input {
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+  }
+  .footer .widget #sub {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #6068FF;
+    background-color: #6068FF;
+    padding: 10px 20px;
+    border-radius: 6px;
+    top: 105%;
+    left: 0;
+  }
+  .footer .widget #sub:hover {
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+  }
+  .footer hr {
+    margin-top: 40px;
+  }
+  @media (max-width: 576px) {
+    .footer hr {
+      margin-top: 100px;
+    }
+  }
+  .footer .footer-bottom .copyright {
+    text-align: center;
+  }
+  .footer .footer-bottom .copyright p {
+    font-size: 15px;
+  }
+  .footer .footer-bottom .media {
+    text-align: center;
+  }
+  .footer .footer-bottom .media .linkk {
+    display: block;
+    position: relative;
+    margin-top: 19px;
+  }
+  .footer .footer-bottom .media li {
+    list-style: none;
+    display: block;
+  }
+  .footer .footer-bottom .media li a {
+    font-size: 18px;
+    color: #6168FF;
+  }
+  .footer .footer-bottom .media li #o1 {
+    position: absolute;
+    left: 42%;
+  }
+  @media (max-width: 576px) {
+    .footer .footer-bottom .media li #o1 {
+      left: 30%;
+    }
+  }
+  .footer .footer-bottom .media li #o2 {
+    position: absolute;
+    left: 45%;
+  }
+  @media (max-width: 576px) {
+    .footer .footer-bottom .media li #o2 {
+      left: 36%;
+    }
+  }
+  .footer .footer-bottom .media li #o3 {
+    position: absolute;
+    left: 48%;
+  }
+  @media (max-width: 576px) {
+    .footer .footer-bottom .media li #o3 {
+      left: 42%;
+    }
+  }
+  .footer .footer-bottom .media li #o4 {
+    position: absolute;
+    left: 51%;
+  }
+  @media (max-width: 576px) {
+    .footer .footer-bottom .media li #o4 {
+      left: 48%;
+    }
+  }
+  .footer .footer-bottom .media li #o5 {
+    position: absolute;
+    left: 54%;
+  }
+  @media (max-width: 576px) {
+    .footer .footer-bottom .media li #o5 {
+      left: 54%;
+    }
+  }/*# sourceMappingURL=style.css.map */
